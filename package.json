@@ -1,7 +1,7 @@
 {
-  "name": "module-name-here>",
+  "name": "starter-template-for-node-js-projects",
   "version": "0.1.0",
-  "description": "<description for some module>",
+  "description": "A starter template for building node js projects.",
   "main": "index.js",
   "scripts": {
     "development": "NODE_ENV=development DEBUG=* npx nodemon",
