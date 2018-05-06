@@ -1,0 +1,24 @@
+{
+  "name": "module-name-here>",
+  "version": "0.1.0",
+  "description": "<description for some module>",
+  "main": "index.js",
+  "scripts": {
+    "development": "NODE_ENV=development DEBUG=* npx nodemon",
+    "test": "npx ava --verbose"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "eslint": "4.19.1",
+    "eslint-config-google": "0.9.1",
+    "nodemon": "1.17.3"
+  },
+  "nodemonConfig": {
+    "verbose": true
+  }
+}
