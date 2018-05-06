@@ -32,6 +32,7 @@ module.exports = {
       'SwitchCase': 1,
       'MemberExpression': 'off'
     }],
+    'no-multiple-empty-lines': ['error', { 'max': 1 }],
     'no-unused-vars': ['error', { 'argsIgnorePattern': '^_.+' }],
     'semi-style': ['error', 'last'],
     'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
