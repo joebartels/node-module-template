@@ -1,6 +1,7 @@
 /* eslint-env node */
 
 module.exports = {
+  // https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy
   root: true,
 
   // https://eslint.org/docs/user-guide/configuring#specifying-parser
@@ -12,7 +13,7 @@ module.exports = {
     }
   },
 
-
+  // https://eslint.org/docs/user-guide/configuring#extending-configuration-files
   extends: [
     'eslint:recommended',
     'google'
@@ -72,6 +73,8 @@ module.exports = {
       'named': 'never'
     }],
   },
+
+  // https://eslint.org/docs/user-guide/configuring#configuration-based-on-glob-patterns
   'overrides': [
     {
       'files': ['*-test.js'],
