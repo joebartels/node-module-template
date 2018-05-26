@@ -20,5 +20,8 @@
   },
   "nodemonConfig": {
     "verbose": true
+  },
+  "eslintConfig": {
+    "root": true
   }
 }
