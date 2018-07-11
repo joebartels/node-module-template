@@ -13,15 +13,20 @@
   "author": "me",
   "license": "MIT",
   "devDependencies": {
-    "ava": "1.0.0-beta.4",
-    "eslint": "4.19.1",
+    "ava": "1.0.0-beta.6",
+    "eslint": "5.1.0",
     "eslint-config-google": "0.9.1",
-    "nodemon": "1.17.3"
+    "nodemon": "1.18.0"
   },
   "nodemonConfig": {
     "verbose": true
   },
   "eslintConfig": {
     "root": true
+  },
+  "ava": {
+    "files": [
+      "tests/**/*-test.js",
+    ]
   }
 }
